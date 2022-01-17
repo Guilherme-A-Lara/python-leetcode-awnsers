@@ -29,3 +29,10 @@ class Solution(object):
                 l2.next = ListNode(0)
             ret.next = self.addTwoNumbers(l1.next,l2.next,c)
         return  ret
+'''
+Your input [2,4,3] [5,6,4]
+Output
+[7,0,8]
+Expected
+[7,0,8]
+'''
